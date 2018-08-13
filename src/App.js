@@ -14,6 +14,7 @@ class App extends Component {
   }
 
   performSearch(searchTerm) {
+    //API
     const urlString = "https://api.themoviedb.org/3/search/movie?query=" + searchTerm + "&api_key=93eca8df01f2b75144290cf416468bd0";
 
     $.ajax({
